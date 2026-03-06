@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* place in global CSS or the component's CSS */
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.app, .main-container, .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100vh; /* or auto */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    flex: 1 1 auto; /* if using flex layout */
+}
