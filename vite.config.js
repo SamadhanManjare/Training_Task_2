@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: process.env.BASE_PATH || '/',
   plugins: [react(),
-    tailwindcss(),
-  ],
+    tailwindcss()],
+    base: "/Training_Task_2/"
+  ,
 })
